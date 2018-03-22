@@ -1,0 +1,118 @@
+# Miu Anti-Cheat Configuration File
+# Support: Message me on the Spigot forums at https://www.spigotmc.org/members/thisissparta1252.451607/
+
+# Checks:
+# - Most checks have a cheatConsider variable. This is the amount of positive results that MIU has to record to be fully sure that the player is hacking.
+# - Most checks also have a prevent boolean. This can be either true or false. If set to true, MIU will attempt to stop the player from hacking
+#   (e.g. teleport them back). Checks that do not have this cannot be prevented.
+
+# Don't change these values from the default unless you know what you're doing!
+
+# Whether MIU Anti-Cheat should take into account actions and record them to use for future checks.
+learnMode: false
+# The delay between alert messages for each player (in milliseconds)
+alertInterval: 1000
+waterwalk:
+  cheatConsider: 10
+  prevent: true
+nofall:
+  cheatConsider: 10
+  prevent: true
+antivelocity:
+  cheatConsider: 10
+  prevent: true
+sneak:
+  cheatConsider: 10
+fly:
+  cheatConsider: 10
+  prevent: true
+  a:
+    ascendFlyCertain: 1500
+  b:
+    countInAir: 20
+    flyCertain: 1500
+fastbow:
+  cheatConsider: 10
+  prevent: true
+  a:
+    allowedMinimumDifference: 200
+speed:
+  cheatConsider: 10
+  prevent: true
+killaura:
+  cheatConsider: 10
+  prevent: true
+  a:
+    # The amount of times a player is allowed to one entity per second.
+    allowedHitsPerSecond: 3.5
+    # The time at which the amount of entities the player hits in a specific time is reset.
+    # This is measured in milliseconds.
+    attackTimeCountInterval: 2500
+  c:
+    # The angle at which the anticheat believes that the player is behaving in a suspicious manner.
+    disallowedAngle: 50.0
+    # The amount of hits that are needed to verify an accurate picture of the player's hit angles.
+    neededSamples: 5
+  learn:
+    # Whether you want to disable the killaura check that learns from you programming the system.Leave this disabled if you:
+    # 1) Don not understand what this is (read the Spigot resource post to learn about it!).
+    # 2) Don't have any data for the system to use, in which case program some data in!
+    disabled: false
+fastheal:
+  cheatConsider: 10
+  prevent: true
+highjump:
+  cheatConsider: 10
+  prevent: true
+criticals:
+  cheatConsider: 10
+  prevent: true
+reach:
+  cheatConsider: 10
+  prevent: true
+  a:
+    allowedReach: 4.75
+    allowedReachDifference: 0.25
+    reachDataValidation: 25
+inventorytweaks:
+  cheatConsider: 10
+  prevent: true
+  b:
+    bowlsPerSingleSlot: 50
+packets:
+  cheatConsider: 10
+  prevent: true
+  a:
+    # The amount of packets that are allowed to be sent per tick by a player.
+    maxPacketsPerTick: 2.0
+liquids:
+  cheatConsider: 10
+  prevent: true
+antidamage:
+  cheatConsider: 10
+  prevent: true
+autoclicker:
+  cheatConsider: 10
+  prevent: true
+  a:
+    # When the server should start considering CPS as suspiciously high.
+    suspiciousCPS: 10.0
+    # When the player clicks, the time below will be how far we check into history for
+    # suspicious activity.
+    reviewTime: 10000
+    # The least amount of data needed to form a judgement on whether te player is using an autoclicker.
+    neededSamples: 5
+    # The allowed differences between click rates.
+    allowedInterval: 1.25
+antigravity:
+    cheatConsider: 10
+    prevent: true
+    a:
+      # The difference between what we expect the player's y value to be due to calculating gravity and what it actually is.
+      # If you don't understand how to fix this. Contact me on Discord: Dengisan#1998
+      allowedMaxGravityDifference: 0.74
+inventorytweaks:
+    cheatConsider: 10
+    prevent: true
+    b:
+        bowlsPerSingleSlot: 10

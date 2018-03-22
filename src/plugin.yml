@@ -1,0 +1,8 @@
+name: miuanticheat
+main: io.github.astramgg.miuanticheat.miu
+version: 1.0
+author: Dengisan
+depend: [ProtocolLib]
+commands:
+    miuanticheat:
+        description: The main command for the anticheat.
