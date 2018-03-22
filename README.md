@@ -1,4 +1,4 @@
-![MIU-Anticheat Logo](https://dengisan.nl/astramgg-github/MIU-Anticheat/Logo.png)
+![MIU-Anticheat Logo](https://github.com/AstramGG/MIU-AntiCheat-Minecraft/blob/master/Logo.png?raw=true)
 
 This plugin aims to eradicate cheating from servers by making cheating not significantly advantageous enough for players.
 
