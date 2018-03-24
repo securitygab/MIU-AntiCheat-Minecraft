@@ -8,6 +8,9 @@ Thank you for showing interest in the project! :)
 
 We used to have a Discord server, understand that my discord is in dutch: 
 
+OLD PROJECT: Crescent-master
+Created by: David/Dengisan Ramadanoski
+
 Links
 Website: https://dengisan.nl/
 Twitter: https://twitter.com/syotexgames/
