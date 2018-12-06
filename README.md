@@ -1,4 +1,4 @@
-![MIU-Anticheat Logo](https://github.com/AstramGG/MIU-AntiCheat-Minecraft/blob/master/Logo.png?raw=true)
+![MIU-Anticheat Logo](https://github.com/securitygab/MIU-AntiCheat-Minecraft/blob/master/Logo.png?raw=true)
 
 This plugin aims to eradicate cheating from servers by making cheating not significantly advantageous enough for players.
 
@@ -9,15 +9,7 @@ Thank you for showing interest in the project! :)
 We used to have a Discord server, understand that my discord is in dutch: 
 
 OLD PROJECT: Crescent-master
-Created by: David/Dengisan Ramadanoski
-
-Links
-Website: https://dengisan.nl/
-Twitter: https://twitter.com/syotexgames/
-Instagram: https://instagram.com/syotexgames_
-
-Invite link
-https://discord.gg/fmJgEqv
+Created by: Paid developers
 
 Suggestions can be sent to me on Discord.
 
@@ -46,4 +38,4 @@ Before you submit a pull request however please make sure that:
 - You have commented your code to explain what it does.
 - Your code follows the formatting of our existing code.
 
-- My personal business email: support@dengisan.nl
+- My personal business email: phantomsquad@protonmail.com
